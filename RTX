@@ -1,0 +1,76 @@
+function hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Main = Instance.new(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8715,10395,11970,10605,10605,11550,7455,12285,11025}))
+local MainFrame = Instance.new(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({7350,11970,10185,11445,10605}))
+local UICorner = Instance.new(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8925,7665,7035,11655,11970,11550,10605,11970}))
+local Korblox = Instance.new(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8820,10605,12600,12180,6930,12285,12180,12180,11655,11550}))
+local UICorner_2 = Instance.new(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8925,7665,7035,11655,11970,11550,10605,11970}))
+local Headless = Instance.new(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8820,10605,12600,12180,6930,12285,12180,12180,11655,11550}))
+local UICorner_3 = Instance.new(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8925,7665,7035,11655,11970,11550,10605,11970}))
+
+--Properties:
+
+Main.Name = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8085,10185,11025,11550})
+Main.Parent = game.CoreGui
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({8085,10185,11025,11550,7350,11970,10185,11445,10605})
+MainFrame.Parent = Main
+MainFrame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+MainFrame.Position = UDim2.new(0.0751346573, 0, 0.743494451, 0)
+MainFrame.Size = UDim2.new(0, 163, 0, 109)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+UICorner.Parent = MainFrame
+
+Korblox.Name = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({7875,11655,11970,10290,11340,11655,12600})
+Korblox.Parent = MainFrame
+Korblox.BackgroundColor3 = Color3.fromRGB(73, 12, 255)
+Korblox.Position = UDim2.new(0.0858895704, 0, 0.0825688019, 0)
+Korblox.Size = UDim2.new(0, 134, 0, 42)
+Korblox.Font = Enum.Font.GothamBlack
+Korblox.Text = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({22680,18585,22680,18060,22785,13860,3360,22785,13965,22680,18270,22785,13545,22785,14490,22785,14175})
+Korblox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Korblox.TextSize = 23.000
+Korblox.TextWrapped = true
+Korblox.MouseButton1Click:Connect(function()
+	local ply = game.Players.LocalPlayer
+	local chr = ply.Character
+	chr.RightLowerLeg.MeshId = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({5985,5040,5250,5985,5460,5250,5040,5985,5355})
+	chr.RightLowerLeg.Transparency = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({5145})
+	chr.RightUpperLeg.MeshId = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({10920,12180,12180,11760,6090,4935,4935,12495,12495,12495,4830,11970,11655,10290,11340,11655,12600,4830,10395,11655,11445,4935,10185,12075,12075,10605,12180,4935,6615,11025,10500,6405,5985,5040,5250,5985,5460,5250,5040,5985,5670})
+	chr.RightUpperLeg.TextureID = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({10920,12180,12180,11760,6090,4935,4935,11970,11655,10290,11340,11655,12600,4830,10395,11655,11445,4935,10185,12075,12075,10605,12180,4935,6615,11025,10500,6405,5985,5040,5250,5880,5460,5355,5355,5985,5880})
+	chr.RightFoot.MeshId = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({5985,5040,5250,5985,5460,5250,5040,5880,5985})
+	chr.RightFoot.Transparency = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({5145})
+end)
+
+UICorner_2.Parent = Korblox
+
+Headless.Name = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({7560,10605,10185,10500,11340,10605,12075,12075})
+Headless.Parent = MainFrame
+Headless.BackgroundColor3 = Color3.fromRGB(73, 12, 255)
+Headless.Position = UDim2.new(0.0858895704, 0, 0.522935808, 0)
+Headless.Size = UDim2.new(0, 134, 0, 42)
+Headless.Font = Enum.Font.GothamBlack
+Headless.Text = hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({22680,18585,22680,17115,22680,18795,3360,22785,13965,22680,18270,22785,13545,22785,14490})
+Headless.TextColor3 = Color3.fromRGB(255, 255, 255)
+Headless.TextSize = 23.000
+Headless.TextWrapped = true
+Headless.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+		if (v:IsA(hZvrAPVTtuMBQMWPQEFskrDxuGhVqMQkSyeRxRDzBVGafZUdndvDBOtqlpyxxMEoyCHR({7140,10605,10395,10185,11340}))) then
+			v.Transparency = 1
+		end
+	end
+end)
+
+UICorner_3.Parent = Headless    
